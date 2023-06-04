@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-main: #f7941d;
+    --color-text: #333;
+    --color-border: #f0f0f0;
+  }
+  div.neon {
+    --color-main: #b91df7;
+    --color-text: #333;
+    --color-border: #f0f0f0;
+  }
+}
